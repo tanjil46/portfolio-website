@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /*font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+.btn{
+    font-size: 25px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    transition: all 0.3s;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/*STYLING OF NAVMENU STATRS */
+
+nav{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.name{
+    font-size: 40px;
+    
+}
+
+.primary{
+    color: orangered;
+}
+.nav-menu>ul {
+    display:flex;
+
+    align-items: center;
+    
+}
+
+.nav-menu ul li a{
+    color: black;
+    font-size: 20px;
+    margin: 25px;
+    padding: 10px;
+}    
+.nav-menu ul li a:hover{
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+}
