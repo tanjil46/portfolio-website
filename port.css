@@ -22,18 +22,25 @@
     background-color: white;
 }
 
+/*HEADER CLASS STYLE*/
+.header{
+    background-color: #FFF8F3;
+}
+
 /*STYLING OF NAVMENU STATRS */
 
 nav{
-    padding-top: 15px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
     
 }
 
 .name{
     font-size: 40px;
+    padding-top: 15px;
     
 }
 
@@ -57,4 +64,27 @@ nav{
     background-color:black;
     color:white;
     border-radius: 10px;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    margin: 20px;
+    
+    
+}
+.ban-gre{
+    margin: 10px 0;
+}
+
+.ban-name{
+    margin: 10px 0;
+}
+.ban-para{
+    margin-bottom: 20px;
 }
