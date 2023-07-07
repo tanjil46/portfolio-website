@@ -24,7 +24,11 @@
 
 /*HEADER CLASS STYLE*/
 .header{
+    height: 70vh;
     background-color: #FFF8F3;
+    background-image: url("./file/port1.jpg");
+    
+
 }
 
 /*STYLING OF NAVMENU STATRS */
@@ -67,8 +71,9 @@ nav{
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -80,10 +85,12 @@ img{
 }
 .ban-gre{
     margin: 10px 0;
+    font-size: 30px;
 }
 
 .ban-name{
     margin: 10px 0;
+    font-size: 40px;
 }
 .ban-para{
     margin-bottom: 20px;
