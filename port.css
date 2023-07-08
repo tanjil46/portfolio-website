@@ -4,8 +4,8 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    /*font-family: 'Open Sans', sans-serif;
-   font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .btn{
@@ -115,6 +115,7 @@ main{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    padding-top: 10px ;
 }
 
 .about-para{
@@ -136,4 +137,39 @@ main{
 }
 .fuul{
     margin-top: 5px;
+}
+
+/*SECTION OF WHYAT I DO STYLING IS STARTED*/
+
+#what-para{
+    padding: 30px 150px;
+}
+
+.skill-img{
+    width: 50px;
+}
+
+.skills-info{
+    width: 200px;
+    text-align: center;
+    color: black;
+}
+.skill-title{
+    
+    padding: 10px 0;
+}
+.skill-desc{
+    
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 10px;
+}
+
+.what-i-do{
+
+    background-color: cadetblue;
 }
