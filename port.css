@@ -104,6 +104,8 @@ main{
     margin: 0 auto;
 }
 .about-me{
+    color: white;
+    background-image: url("./file/Untitled.jpg");
     background-color: #FFF8F3;
     margin: 130px;
     padding: 10px;
@@ -121,7 +123,7 @@ main{
 .about-para{
     padding-top: 10px;
     font-size: 18px;
-    color: black;
+    
     text-align: center;
     text-align: justify;
 }
@@ -221,10 +223,12 @@ main{
 }
 
 .footer{
+    background-image: url(./file/back.jpg);
     margin: 130px 80px 80px 80px;
     display: flex;
     justify-content: space-around;
     background-color: #FFF8F3;
+    height: 60vh;
 
 }
 
@@ -235,6 +239,7 @@ main{
 
 }
 .mass-me{
+    padding-top: 10px;
     text-align: center;
     padding-bottom: 15px;
     
@@ -262,10 +267,47 @@ main{
 }
 
 .para111{
+    padding-top: 10px;
     text-align: center;
     padding-bottom: 15px;
 }
 
 #social{
     margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 150px;
+}
+
+
+
+.hire-container{
+    align-items: center;
+    
+    
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+.qualifi label{
+    display: block;
+    margin: 100px 0;
+}
+
+#lang{
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+.hehe{
+    text-align: center;
+}
+.for-hire{
+    padding: 15px;
+    font-size: 20px;
+    color: aqua;
+}
+header{
+    background-color: blueviolet;
 }
