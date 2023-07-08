@@ -153,6 +153,7 @@ main{
     width: 200px;
     text-align: center;
     color: black;
+    
 }
 .skill-title{
     
@@ -170,6 +171,51 @@ main{
 }
 
 .what-i-do{
-
+ margin-bottom: 30px;
+ padding-bottom: 20px;
     background-color: cadetblue;
+}
+
+
+/*STYLE OF RESUME */
+.summary{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.resume-title{
+ 
+    padding-left: 50px;
+    padding-right: 10px;
+
+
+}
+.resume-edu-exp{
+     font-size: 30px;
+     text-align: center;
+}
+
+.edu-exp-title{
+    padding-top: 15px;
+}
+.quality{
+    padding: 15px 0;
+    text-align: justify;
+    
+}
+
+.resume-container{
+    
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume{
+    background-color: #FFF8F3;
+}
+
+.download-cv{
+    text-align: center;
+    margin: 20px 0;
 }
