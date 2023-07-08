@@ -95,3 +95,45 @@ img{
 .ban-para{
     margin-bottom: 20px;
 }
+
+
+/*section of about and main styling statrs from here*/
+
+main{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.about-me{
+    background-color: #FFF8F3;
+    margin: 130px;
+    padding: 10px;
+}
+
+
+.about-title{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-para{
+    padding-top: 10px;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    text-align: justify;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.info1{
+    text-align: center;
+}
+.fuul{
+    margin-top: 5px;
+}
