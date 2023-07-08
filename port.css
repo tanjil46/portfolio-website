@@ -219,3 +219,52 @@ main{
     text-align: center;
     margin: 20px 0;
 }
+
+.footer{
+    margin: 130px 80px 80px 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF8F3;
+
+}
+
+.form input{
+    display: block;
+    margin: 15px ;
+    text-align: center;
+
+}
+.mass-me{
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+#name{
+    border: none;
+    font-size: 30px;
+    border: 1px solid orangered;
+    border-radius: 0.6rem;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#field{
+    border: none;
+    border-radius: 0.6rem;
+    border: 1 px solid orangered;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.my-btn{
+    margin: 10px;
+}
+
+.para111{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#social{
+    margin-top: 15px;
+}
