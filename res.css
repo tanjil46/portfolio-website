@@ -5,6 +5,7 @@
         
         flex-direction: column;
         text-align: center;
+        align-items: center;
         
         
     }
@@ -81,10 +82,11 @@ display: grid;
 flex-direction: column;
 
 
+
 }
 .skills-info{
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 10px;
 }
 
 
